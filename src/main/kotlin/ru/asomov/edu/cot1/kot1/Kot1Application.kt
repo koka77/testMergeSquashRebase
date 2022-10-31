@@ -8,8 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import java.time.OffsetDateTime
 import java.time.ZoneId
 import java.time.ZonedDateTime
-import java.time.format.DateTimeFormatter
-import java.util.Formatter
 
 @SpringBootApplication
 class Kot1Application
