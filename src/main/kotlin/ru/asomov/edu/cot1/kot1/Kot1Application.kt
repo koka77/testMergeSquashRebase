@@ -32,8 +32,4 @@ fun main(args: Array<String>) {
     System.out.println(objectMapper.writeValueAsString(OffsetDateTime.now(ZoneId.of("Europe/Paris"))))
     System.out.println(objectMapper.writeValueAsString(OffsetDateTime.parse("2022-10-29T21:00:00.000Z")))
     System.out.println(objectMapper.writeValueAsString(OffsetDateTime.parse("2022-10-29T21:00:00+02:00")))
-
-    /**
-     * add 1 commit in test2
-     */
 }
